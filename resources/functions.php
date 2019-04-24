@@ -78,30 +78,6 @@ DELIMETER;
 }
 
 
-// function get_features() {
-//     $query = query("SELECT * FROM products WHERE product_category_id = " . escape_string($_GET['id']) . " ");
-//     confirm($query);
-    
-//     while($row = fetch_array($query)) {
-//         $feature = <<<DELIMETER
-//         <div class="col-sm-4 col-lg-4 col-md-4">
-//             <div class="thumbnail">
-//                 <a href="item.php?id={$row['product_id']}"><img src="{$row['product_image']}" alt=""></a>
-//                 <div class="caption">
-//                     <h4 class="pull-right">&#36;{$row['product_price']}</h4>
-//                     <h4><a href="item.php?id={$row['product_id']}">{$row['product_title']}</a>
-//                     </h4>
-//                     <p>See more snippets like this online store item at <a target="_blank" href="http://www.bootsnipp.com">Bootsnipp - http://bootsnipp.com</a>.</p>
-//                     <a class="btn btn-primary" target="_blank" href="item.php?id={$row['product_id']}">Add to Cart</a>
-//                 </div>
-//             </div>
-//          </div>
-
-// DELIMETER;
-//         echo $feature;
-//     }
-
-// }
 
 
 
